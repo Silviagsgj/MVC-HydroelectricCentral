@@ -1,0 +1,15 @@
+Datos acceso:
+
+Usuario tipo ADMINISTRADOR
+	Usuario: 18068316E
+	Clave: Administrador1	
+
+Usuario tipo EMPLEADO
+	Usuario: 37873016C
+	Clave: Empleado1
+
+
+
+**** Si se da de alta un nuevo empleado desde la aplicación, se generara una contraseña por defecto dependiendo de su rol:
+	Rol Administrador - Clave: Administrador1
+	Rol Empleado - Clave: Empleado1

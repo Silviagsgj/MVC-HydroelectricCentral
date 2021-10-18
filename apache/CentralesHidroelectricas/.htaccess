@@ -1,0 +1,11 @@
+
+RewriteEngine On
+# Specify search friendly URLs
+
+RewriteRule  ^([A-zÀ-ú+]+)/?$ index.php?controller=$1 [L]
+
+RewriteRule  ^([A-zÀ-ú+]+)/([A-zÀ-ú+]+)/?$ index.php?controller=$1&action=$2 [L]
+
+RewriteRule  ^([A-zÀ-ú+]+)/([A-zÀ-ú+]+)/([A-zÀ-ú0-9]+)/?$ index.php?controller=$1&action=$2&num=$3 [L]      
+
+RewriteRule  ^([A-zÀ-ú+]+)/([A-zÀ-ú+]+)/([A-zÀ-ú0-9]+)/?$ index.php?controller=$1&action=$2&num=$3&numa=$4 [L]                                             
